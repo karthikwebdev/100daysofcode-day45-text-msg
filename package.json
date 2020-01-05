@@ -1,0 +1,17 @@
+{
+  "name": "message",
+  "version": "1.0.0",
+  "description": "message sending using nexmo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "E.karthik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "nexmo": "^2.5.2"
+  }
+}

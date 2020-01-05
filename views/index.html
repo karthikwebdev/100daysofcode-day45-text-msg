@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test message using nodejs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>This app sends text message.....&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </h1>
+        <form action="/post" method="POST">
+         <label for="phone"> enter phone number.. </label>   
+        <input type="tel" name="phone" id="phone">
+        <label for="text"> enter text message..</label>   
+        <input type="text" name="text" id="text">
+        <br>
+        <input type="submit" class="button" onclick="fun()">
+        <br>
+        </form>
+    </div>
+</body>
+</html>
